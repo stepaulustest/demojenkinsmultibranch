@@ -11,7 +11,7 @@ node {
     def JWT_KEY_CRED_ID = '2084eac7-6c25-41e2-bba5-249af941bb10'
     def CONNECTED_APP_CONSUMER_KEY= '3MVG91BJr_0ZDQ4t0_0WcCNunBtevm_fAlZZp1oou8MLj_wWvB1A22FUT.I08F5os3eupRsLJWcb1eIj90iJL'
 
-    def toolbelt = tool ''
+    def toolbelt = tool 'sfdx'
 
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
